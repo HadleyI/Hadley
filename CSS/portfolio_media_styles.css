@@ -1,0 +1,73 @@
+/*media quiries (styles applied differently for iphones)*/
+/*for mobiles device*/
+@media only screen and (max-width: 480px) {
+
+	a#navicon {
+    display: block;
+		width: 20%;
+  }  
+	
+	ul.mainmenu > li {
+		width: 100%; 
+		font-size: 0.8em;
+		border: double black;
+		margin: 0%;
+	}
+	
+  nav.horizontal ul {
+    display: none; 
+  }
+  
+  a#navicon:hover + ul, nav.horizontal ul:hover {
+    display: block; 
+  }
+  
+  nav.horizontal a {
+    font-size: 1.5em;
+    line-height: 2em;
+    /* makes text for mobile devices bigger for clicking with finger */
+  }  
+	
+ 
+	section img {   /* removes image on mobile */
+		display: none;
+	}		
+	section#Map {  /* removes map on mobile */
+		display: none
+	}
+	
+	h2 {
+		line-height: 1em;
+	}	
+}  
+
+/*for tablets*/
+@media only screen and (min-width: 481px /*and max-width: 768*/) {
+  ul.mainmenu > li {
+    float: left;
+    width: 20%; 
+    position: relative;
+  }
+	
+	article {
+		float: left;
+    width: 80%;
+		margin-right: 10%;
+		text-align:center;
+		margin: 5%;
+  }
+
+}
+
+/*destops*/
+@media only screen and (min-width: 769px) {
+	
+  article {
+		float: left;
+    width: 80%;
+		margin-right: 10%;
+		text-align:center;
+		margin: 5%;
+  }
+	
+}  

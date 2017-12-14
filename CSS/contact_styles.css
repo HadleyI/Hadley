@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/*
+
+
+   Author: Hadley Igoe
+   Date: Dec 12, 2017    
+   
+   Filename: contact_styles.css
+	 
+	PHOTOS USED:
+	https://pixabay.com/en/aged-antique-background-black-call-2974648/
+	 
+*/
+
+/* HTML and Body Styles */
+
+
+
+/* add for other web browsers*/
+
+
+html {
+  background: rgb(0,0,0);
+  height: 100%;
+  font-family: Helvetica, times-new roman, serif;
+  font-size: 12px;
+}
+
+body {
+	background: brown;
+  background: rgba(251, 241, 217, 0.9);  
+  box-shadow: rgb(51, 51, 51) 5px 0px 15px,
+              rgb(51, 51, 51) -5px 0px 15px;
+  margin: 0px auto;
+  min-height: 100%;
+  min-width: 360px;
+  max-width: 1024px;
+  width: 100%;
+}
+
+header {  
+	background: url(cssPictures/aged.jpg) center / cover no-repeat fixed;   
+	padding: 8%;
+}	
+
+h1{
+	font-family: Geneva, 'Tangerine', serif;
+	text-align: center;
+	font-size: 6em; 
+	text-shadow: 4px 4px 4px #aaa
+}	
+
+
+/* Nav Menu Styles */
+
+
+nav.horizontal li {     
+	background: orange;
+	background: rgba(189, 79, 28, 0.7); 
+	padding-top: 3%;
+	margin-top: 12%;
+	border: double black;
+	text-align: center;
+}
+
+nav.horizontal ul {
+  color: rgb(31, 73, 125);
+  font-size: 1.4em;
+  line-height: 1em;
+  text-transform: uppercase;
+  width: 100%;
+}
+	
+nav.horizontal li a:visited, nav.horizontal ul li a:link {
+	color: rgb(0, 0, 0);
+}
+
+nav.horizontal li a:hover, nav.horizontal ul li a:active {
+	background-color: rgb(31, 73, 125);
+	color: rgb(231, 231, 231);
+}
+
+ul.mainmenu > li {
+  float: left;
+  width: 20%; 
+  position: relative;
+}
+
+
+/* Section styles*/
+
+
+section#Map {
+	float: left;
+	width:60%;
+	font-size: 1.5em;
+	line-height: 2em;
+}
+
+
+section#MyInfo h3 { 
+	font-family: Geneva, 'Tangerine', serif;
+	text-align: left;
+	font-size: 1.5em; 	
+	padding: 10%;
+}
+
+
+section#MyInfo {
+	float: left;
+	width: 40%;
+	font-size: 1.4em;
+	line-height: 2.3em;
+	padding-left: 10%;
+}
+
+
+/* nav icon styles*/
+
+a#navicon {
+  display: none;
+}  
+
+
+
